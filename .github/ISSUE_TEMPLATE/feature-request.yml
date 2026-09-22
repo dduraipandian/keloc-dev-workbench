@@ -1,0 +1,74 @@
+name: Feature request
+description: Suggest an improvement to a Dev Workbench workflow.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the developer problem you need to solve. A concrete workflow is more useful than a broad feature name. GitHub issues are public, so use synthetic examples.
+
+  - type: dropdown
+    id: workbench
+    attributes:
+      label: Workbench
+      description: Which part of Dev Workbench would this improve?
+      options:
+        - App-wide or navigation
+        - Epoch Time
+        - Cron
+        - JWT
+        - JSON Tools
+        - JSON/YAML
+        - Local Data
+        - Text Encoding
+        - Image Data URI
+        - ID Generator
+        - Color
+        - URL Parser
+        - cURL to Code
+        - Text Diff
+        - Regex
+        - Log Analyzer
+        - IP/CIDR
+        - New workbench
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What are you trying to do, and where does the current workflow fall short?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should Dev Workbench let you accomplish?
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: Add a small synthetic input, output, or interaction example when helpful.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current workaround
+      description: How do you handle this today?
+
+  - type: checkboxes
+    id: existing
+    attributes:
+      label: Existing requests
+      options:
+        - label: I searched the existing issues for the same request.
+          required: true

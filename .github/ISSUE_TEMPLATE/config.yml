@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support
+    url: https://keloc.app/products/dev-workbench/support/#report-a-problem
+    about: Use the support page when the report cannot be shared publicly.
+  - name: App Store billing and refunds
+    url: https://support.apple.com/billing
+    about: Contact Apple for App Store billing or refund questions.

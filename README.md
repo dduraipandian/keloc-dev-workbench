@@ -10,14 +10,14 @@ This is the place to ask for help, report a problem, or suggest an
 idea for **Dev Workbench**.
 
 - [Visit the Dev Workbench website](https://keloc.app)
-- [Report a problem](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?title=%5BBug%5D%20)
-- [Request a feature](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?title=%5BFeature%5D%20)
-- [Browse existing discussions](https://github.com/dduraipandian/keloc-dev-workbench/issues)
+- [Report a problem](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=bug-report.yml)
+- [Request a feature](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=feature-request.yml)
+- [Browse existing issues](https://github.com/dduraipandian/keloc-dev-workbench/issues)
 
 ## Report A Problem
 
 If something is not working as expected, please
-[open a bug report](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?title=%5BBug%5D%20).
+[open a bug report](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=bug-report.yml).
 The following details will help with investigating the problem:
 
 - Dev Workbench version and build number
@@ -39,7 +39,7 @@ report it here without including receipt or account information.
 ## Request A Feature
 
 Ideas for improving Dev Workbench are welcome. When you
-[open a feature request](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?title=%5BFeature%5D%20),
+[open a feature request](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=feature-request.yml),
 it helps to include:
 
 - The developer workflow or problem you want to solve
@@ -55,4 +55,4 @@ feel free to add any extra details that could help.
 ## Documentation
 
 FAQs, privacy information, product documentation, and release notes are
-available at [keloc.app](https://www.keloc.app).
+available at [keloc.app](https://keloc.app/products/dev-workbench/).
