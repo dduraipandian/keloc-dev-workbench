@@ -1,0 +1,104 @@
+name: Bug report
+description: Report something that is not working as expected.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Dev Workbench. GitHub issues are public. Remove passwords, tokens, private keys, authentication headers, purchase receipts, personal information, and private workbench content before submitting.
+
+  - type: dropdown
+    id: workbench
+    attributes:
+      label: Workbench
+      description: Where did the problem happen?
+      options:
+        - App-wide or startup
+        - Epoch Time
+        - Cron
+        - JWT
+        - JSON Tools
+        - JSON/YAML
+        - Local Data
+        - Text Encoding
+        - Image Data URI
+        - ID Generator
+        - Color
+        - URL Parser
+        - cURL to Code
+        - Text Diff
+        - Regex
+        - Log Analyzer
+        - IP/CIDR
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Dev Workbench version
+      description: Include the version and build number shown by the app.
+      placeholder: "1.0 (build 1)"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "macOS 15.6"
+    validations:
+      required: true
+
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model or architecture
+      placeholder: "Apple silicon or Intel; model when relevant"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest reliable sequence that reproduces the problem.
+      placeholder: |
+        1. Open ...
+        2. Enter or select ...
+        3. Choose ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What did you expect Dev Workbench to do?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: What happened instead? Include the exact error text when useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context
+      description: Add a small synthetic sample, screenshot, or log when it helps. Remove confidential details first.
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed passwords, tokens, private keys, authentication headers, purchase receipts, personal information, and private workbench content.
+          required: true
