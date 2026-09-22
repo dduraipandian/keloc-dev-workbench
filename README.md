@@ -10,6 +10,25 @@ and handle everyday conversions without sending routine work to a web tool.
 [See all workbenches](https://keloc.app/products/dev-workbench/#workbenches) ·
 [Read the privacy details](https://keloc.app/products/dev-workbench/privacy/)
 
+## See Dev Workbench In Action
+
+[![Dev Workbench overview showing its native macOS workbenches](media/dev-workbench-overview.webp)](media/dev-workbench-overview.mp4)
+
+[Watch the overview video](media/dev-workbench-overview.mp4) to see JSON tools,
+format conversion, client generation, text comparison, log analysis, and local
+data exploration in the app.
+
+## What It Does
+
+- Keeps routine processing local by default, with network access only for
+  actions that clearly require it.
+- Gives each job a focused native macOS workspace instead of a collection of
+  browser tabs.
+- Includes nine complete workbenches in Free. Pro adds capabilities to seven
+  workbenches, including larger inputs, saved sessions, verification, and
+  previews where they apply.
+- Runs on macOS 14 or later without requiring an account.
+
 ## Find Your Workbench
 
 | Area | Workbenches |
