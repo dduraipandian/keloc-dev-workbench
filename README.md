@@ -1,58 +1,48 @@
 # Dev Workbench
 
-Developer tools that stay on your Mac.
+**Developer tools that stay on your Mac.**
 
-Convert, inspect, generate, compare, and debug with 16 focused workbenches in one native macOS app. Dev Workbench keeps routine development work close at hand and processes data locally by default.
+Dev Workbench brings 16 focused utilities into one native macOS app. Format
+JSON, inspect tokens and URLs, compare text, explore local data, analyze logs,
+and handle everyday conversions without sending routine work to a web tool.
 
-## Dev Workbench Support
+[Explore Dev Workbench](https://keloc.app/products/dev-workbench/) ·
+[See all workbenches](https://keloc.app/products/dev-workbench/#workbenches) ·
+[Read the privacy details](https://keloc.app/products/dev-workbench/privacy/)
 
-This is the place to ask for help, report a problem, or suggest an
-idea for **Dev Workbench**.
+## Find Your Workbench
 
-- [Visit the Dev Workbench website](https://keloc.app)
+| Area | Workbenches |
+| --- | --- |
+| Structured data | [JSON](https://keloc.app/products/dev-workbench/workbenches/json-tools/), [JSON/YAML](https://keloc.app/products/dev-workbench/workbenches/json-yaml/), [Text Encoding](https://keloc.app/products/dev-workbench/workbenches/text-encoding/), [Image Data URI](https://keloc.app/products/dev-workbench/workbenches/image-to-data-uri/) |
+| Requests and tokens | [JWT](https://keloc.app/products/dev-workbench/workbenches/jwt/), [cURL to Code](https://keloc.app/products/dev-workbench/workbenches/curl-to-code/), [URL Parser](https://keloc.app/products/dev-workbench/workbenches/url-parser/) |
+| Text | [Regex](https://keloc.app/products/dev-workbench/workbenches/regex/), [Text Diff](https://keloc.app/products/dev-workbench/workbenches/text-diff/) |
+| Local data | [Local Data](https://keloc.app/products/dev-workbench/workbenches/local-data/), [Log Analyzer](https://keloc.app/products/dev-workbench/workbenches/log-analyzer/) |
+| Everyday utilities | [Epoch Time](https://keloc.app/products/dev-workbench/workbenches/epoch-time/), [Cron](https://keloc.app/products/dev-workbench/workbenches/cron-parser/), [ID Generator](https://keloc.app/products/dev-workbench/workbenches/uuid-ulid-generator/), [Color](https://keloc.app/products/dev-workbench/workbenches/color/), [IP/CIDR](https://keloc.app/products/dev-workbench/workbenches/ip-cidr-calculator/) |
+
+Each focused page shows the real app workflow, supported capabilities, and the
+boundary between Free and Pro where one applies. Current availability and
+release information live on the [product website](https://keloc.app/products/dev-workbench/).
+
+## Help Shape Dev Workbench
+
+This repository is the public support and feedback hub for Dev Workbench. The
+application source code is not hosted here.
+
 - [Report a problem](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=bug-report.yml)
 - [Request a feature](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=feature-request.yml)
-- [Browse existing issues](https://github.com/dduraipandian/keloc-dev-workbench/issues)
+- [Browse and join existing discussions](https://github.com/dduraipandian/keloc-dev-workbench/issues)
+- [Read support and common questions](https://keloc.app/products/dev-workbench/support/)
 
-## Report A Problem
+A useful report includes the workbench, app version and build, macOS version,
+the smallest reliable sequence, and what happened instead. A useful feature
+request starts with the developer problem and the outcome you need.
 
-If something is not working as expected, please
-[open a bug report](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=bug-report.yml).
-The following details will help with investigating the problem:
-
-- Dev Workbench version and build number
-- macOS version and Mac model or architecture
-- The workbench or feature you were using
-- Steps that reproduce the problem
-- What you expected and what happened instead
-- A screenshot, small sample, or log when helpful
-
-> Issue reports are public. Please remove passwords, tokens, private keys,
+> GitHub issues are public. Remove passwords, tokens, private keys,
 > authentication headers, purchase receipts, personal information, and private
-> workbench content from anything you share.
+> workbench content before posting. Use
+> [private support](https://keloc.app/products/dev-workbench/support/#report-a-problem)
+> when the report cannot be shared publicly.
 
-For App Store billing or refund questions, please visit
-[Apple Support](https://support.apple.com/billing). If purchasing or restoring
-Dev Workbench Pro is not working correctly in the app, you are welcome to
-report it here without including receipt or account information.
-
-## Request A Feature
-
-Ideas for improving Dev Workbench are welcome. When you
-[open a feature request](https://github.com/dduraipandian/keloc-dev-workbench/issues/new?template=feature-request.yml),
-it helps to include:
-
-- The developer workflow or problem you want to solve
-- What you would like Dev Workbench to do
-- A small example of the expected result or interaction
-
-## Find An Existing Issue
-
-You can [search the current issues](https://github.com/dduraipandian/keloc-dev-workbench/issues)
-before creating a new one. If someone has already reported the same thing,
-feel free to add any extra details that could help.
-
-## Documentation
-
-FAQs, privacy information, product documentation, and release notes are
-available at [keloc.app](https://keloc.app/products/dev-workbench/).
+For App Store billing or refund questions, contact
+[Apple Support](https://support.apple.com/billing).

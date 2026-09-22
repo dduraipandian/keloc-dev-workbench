@@ -41,7 +41,7 @@ body:
     attributes:
       label: Dev Workbench version
       description: Include the version and build number shown by the app.
-      placeholder: "1.0 (build 1)"
+      placeholder: "For example: 1.0 (2)"
     validations:
       required: true
 
