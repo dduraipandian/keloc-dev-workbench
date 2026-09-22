@@ -12,7 +12,7 @@ and handle everyday conversions without sending routine work to a web tool.
 
 ## See Dev Workbench In Action
 
-[![Dev Workbench overview showing its native macOS workbenches](media/dev-workbench-overview.webp)](media/dev-workbench-overview.mp4)
+[![Animated Dev Workbench overview showing its native macOS workbenches](media/dev-workbench-overview.gif)](media/dev-workbench-overview.mp4)
 
 [Watch the overview video](media/dev-workbench-overview.mp4) to see JSON tools,
 format conversion, client generation, text comparison, log analysis, and local
