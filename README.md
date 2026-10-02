@@ -18,6 +18,8 @@ and handle everyday conversions without sending routine work to a web tool.
 format conversion, client generation, text comparison, log analysis, and local
 data exploration in the app.
 
+[Capture and conversion provenance](media/README.md)
+
 ## What It Does
 
 - Keeps routine processing local by default, with network access only for
