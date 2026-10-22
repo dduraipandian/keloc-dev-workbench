@@ -6,9 +6,12 @@ Dev Workbench brings 16 focused utilities into one native macOS app. Format
 JSON, inspect tokens and URLs, compare text, explore local data, analyze logs,
 and handle everyday conversions without sending routine work to a web tool.
 
+[Download on the Mac App Store](https://apps.apple.com/us/app/dev-workbench/id6810428174) ·
 [Explore Dev Workbench](https://keloc.app/products/dev-workbench/) ·
 [See all workbenches](https://keloc.app/products/dev-workbench/#workbenches) ·
 [Read the privacy details](https://keloc.app/products/dev-workbench/privacy/)
+
+Free download for macOS 14 or later. Upgrade to Pro with a one-time in-app purchase.
 
 ## See Dev Workbench In Action
 
